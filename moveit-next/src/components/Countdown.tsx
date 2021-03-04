@@ -40,7 +40,10 @@ setTime(time - 1);
  
 }, 1000) 
  
-} else if(isActive && time == 0) {
+}
+     /*qd o countdown chega em zero disparamos um evento la no 
+     ExperienceBar*/ 
+else if(isActive && time == 0) {
 
   setHasFinished(true);
   setIsActive(false);
@@ -76,7 +79,7 @@ setTime(time - 1);
 </button>)
 
     ) : ( <> { 
-     
+
       isActive ? (
      <button type="button"
        className={styles.countdownButton}
