@@ -18,7 +18,7 @@ justify-content: space-evenly;
 background: var(--white);
 box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
 border-radius: 5px;
-font-size: 8.5rem;
+font-size: 5.5rem;
 text-align: center;
 
 }
@@ -58,7 +58,7 @@ flex: 1;
 .countdownButton {
 
 width: 100%;
-height: 5rem;
+height: 4rem;
 margin-top: 2rem;
 display: flex;
 align-items: center;
@@ -76,8 +76,34 @@ transition: background-color 0.2s;
 }
 
  
-.countdownButton:hover {
+.countdownButton:not(:disabled):hover {
 
 background: var(--blue-dark);
 
 }
+
+.countdownButtonActive {
+
+    background: var(--white);
+    color: var(--title);
+}
+
+/* Desabilitando o hover caso esteja desabilitado */
+
+.countdownButtonActive:not(disabled):hover {
+
+    background: var(--red);
+    color: var(--white);
+}
+
+
+.countdownButton[disabled] {
+
+
+    background: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
+}
+
+/* not-allowed = não clicável */
+

@@ -2,9 +2,10 @@ import { Profile } from "../components/Profile";
 //import Head from 'next/head'
 import styles from '../styles/pages/Home.module.css';
 import { ExperienceBar } from '../components/ExperienceBar';
-import { CompleteChallanges } from "../components/CompleteChallanges";
+import { CompleteChallenges } from "../components/CompleteChallenges";
 import { Countdown } from "../components/Countdown";
 import Head from 'next/head';
+import { ChallengeBox } from '../components/ChallengeBox'
 
 export default function Home() {
   return (
@@ -21,10 +22,14 @@ Início | Moveit
 <section>
 <div>
   <Profile />
-  <CompleteChallanges />
+  <CompleteChallenges />
   <Countdown />
+
 </div>
-<div></div>
+<div>
+<ChallengeBox />
+
+</div>
 </section>
         </div>
   )

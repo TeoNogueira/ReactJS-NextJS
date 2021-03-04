@@ -1,6 +1,7 @@
-import Document, { Html, Head, Main, NextScript} from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 //O ARQUVIO DOCUMENT.TSX CARREGA UMA ÚNICA VEZ NA NOSSA APLICAÇÃO // PARA NAO SOBRECARREGAR O APP 
+
 export default class MyDocument extends Document {
 
 

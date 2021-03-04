@@ -35,5 +35,10 @@ yarn add typescript @types/react @types/react-dom @types/node -D
 ---x--
 https://github.com/TeoNogueira/ReactJS-NextJS
 
+//para uso do contexto na aplicaão puxando da biblioteca do react createContext
+import { useContext} from 'react'
+
+
+
 
 

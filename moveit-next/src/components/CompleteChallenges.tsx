@@ -1,7 +1,7 @@
-import styles from '../styles/components/CompleteChallanges.module.css'
+import styles from '../styles/components/CompleteChallenges.module.css'
 
 
-export function CompleteChallanges() {
+export function CompleteChallenges() {
 
 return(
 
