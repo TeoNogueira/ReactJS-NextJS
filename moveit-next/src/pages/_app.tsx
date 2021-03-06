@@ -3,6 +3,7 @@
 import '../styles/global.css'
 import { ChallengesProvider } from '../contexts/ChallengeContext'
 import React, { useState } from 'react'
+import { CountdownProvider } from '../contexts/CountdownContext'
 
 
 function MyApp({ Component, pageProps }) {
@@ -12,8 +13,11 @@ function MyApp({ Component, pageProps }) {
 
   return(
     /*Contexto puxado do ChallengeContext.tsx incluindo parametro do array acima + função Level*/
+    
  <ChallengesProvider>
-  <Component {...pageProps} />
+   
+    <Component {...pageProps} />
+  
   </ChallengesProvider>
     )
 }

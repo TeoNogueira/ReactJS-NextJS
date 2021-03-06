@@ -6,6 +6,7 @@ import { CompleteChallenges } from "../components/CompleteChallenges";
 import { Countdown } from "../components/Countdown";
 import Head from 'next/head';
 import { ChallengeBox } from '../components/ChallengeBox'
+import { CountdownProvider } from "../contexts/CountdownContext";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ Início | Moveit
 </Head>
 
     <ExperienceBar />
+    <CountdownProvider>
 <section>
 <div>
   <Profile />
@@ -31,6 +33,7 @@ Início | Moveit
 
 </div>
 </section>
+</CountdownProvider>
         </div>
   )
 }

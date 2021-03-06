@@ -1,0 +1,12 @@
+useEffect(() => {
+
+
+}, [])
+
+// useEffect é executado após um efeito de outros
+quando uma função de userEffect é executada com um array vazio, significa que ela irá executar uma única vez (referente a ArrowFunction)
+
+//
+
+
+GOOGLE: MDN NOTIFICATION // visualizar as propriedades de notifação no React (Muito Bom!)
