@@ -18,7 +18,7 @@ Início | Moveit
 </title>
 
 </Head>
-
+    
     <ExperienceBar />
     <CountdownProvider>
 <section>
