@@ -2,7 +2,7 @@ import { createContext, useState, ReactNode, useEffect } from 'react';
 import challenges from '../../challenges.json'
 
 interface Challenge {
-/* interface pre editada puxando dados do challange.json */
+/* interface pre editada puxando dados do challanges.json */
 /* criando uma tipagem para activeChallange */
     type: 'body' | 'eye';
     description: string;

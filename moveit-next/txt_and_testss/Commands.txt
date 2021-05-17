@@ -1,30 +1,32 @@
-criar projeto react com TYPESCRIPT
+
+
+
+Criar projeto react com TYPESCRIPT
 
 yarn create react-app >> no do projeto --template=typescript <<<< ex:
 
 yarn create react-app moveit --template=typescript
 
--x----x-x----x
+-x----x-x----x-
 
 PS C:\git\NLW4> cd moveit/
 PS C:\git\NLW4\moveit> code .
 
---x---
+--x--
 
 para abrir o terminal: ctrl + shift + p ... depois digite toggle terminal integration NO VSCODE
 
--x---
-
-yarn start // para iniciar o react
 --x----x--
 
-yarn create next-app moveit-next <<< criando aplica��o next: yarn create-app nomedoprojeto
+yarn start // para iniciar o react
+
+--x----x--
+
+yarn create next-app moveit-next <<< criando aplicação next: yarn create-app nomedoprojeto
 
 code moveit-next <<< para acessar o next
 
-
-
----x----x--
+--x----x--
 
 
 instalar dentro do projeto do nextJS o typescript e todas as tipagens
@@ -32,7 +34,11 @@ instalar dentro do projeto do nextJS o typescript e todas as tipagens
 
 yarn add typescript @types/react @types/react-dom @types/node -D
 
----x--
+
+PARA INICIAR A APLICAÇÃO USE YARN DEV
+
+--x----x--
+
 https://github.com/TeoNogueira/ReactJS-NextJS
 
 //para uso do contexto na aplicaão puxando da biblioteca do react createContext
