@@ -1,6 +1,6 @@
 <div align="center" id="top">
   <h2>NLW4 ReactJS-NextJS</h2>
-  <img height="500" src="https://github.com/TeoNogueira/ReactJS-NextJS/blob/master/App_levelUp.gif">
+  <img height="420" src="https://github.com/TeoNogueira/ReactJS-NextJS/blob/master/App_levelUp.gif">
 
   &#xa0;
 
